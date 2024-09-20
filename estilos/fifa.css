@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+:root{
+--font1: "Oswald", sans-serif;
+--font2: "Libre Franklin", sans-serif;
+--cor1: #eef2fb;
+--cor2: #045694;
+--cor3: #ffffff;
+--cor4: #03122b;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: var(--cor1);
+}
+h1{
+    font-family: var(--font1);
+    text-align: center;
+}
+p{
+    font-family: var(--font2);
+    line-height: 1.4em;
+}
+header{
+    background-color: var(--cor2);
+    text-align: center;
+    padding: 30px;
+    color: var(--cor3);
+}
+section{
+    background-color: var(--cor3);
+    margin: auto;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.38);
+    border-radius: 5px;
+    color: var(--cor4);
+}
+section>h1{
+    text-align: center;
+    padding: 10px;
+}
+section>ul{
+    margin: 15px;
+    font-family: var(--font2);
+}
+section>p{
+    margin-bottom: 20px;
+}
+img{
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+ul>li{
+    padding: 7px;
+}
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    margin: 10px;
+    color: var(--cor1);
+    border-radius: 10px;
+}
+aside>ul{
+    margin: 15px;
+}

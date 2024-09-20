@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+:root{
+--font1: "Oswald", sans-serif;
+--font2: "Libre Franklin", sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.807);
+    color:white;
+    background-attachment: fixed;
+    
+}
+body>h1{
+    text-align: center;
+    padding: 20px;
+    font-family: var(--font1);
+}
+body>p{
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font2);
+}
+ul>li{
+    font-size: var(--font1);
+    font-weight: bolder;
+    padding: 10px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.528);
+    margin: 30px;
+    border: 5px solid rgba(137, 43, 226, 0.554);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.437);
+}
